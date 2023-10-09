@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdbool.h>
+int main(){
+    while(true){
+    double x, y;
+    printf("Enter a value for x : ");scanf("%lf", &x);
+    printf("Enter a value for y : ");scanf("%lf", &y);
+    if(fabs(y - 1) > x || y > x + 1){
+        if(x > 0){
+            printf("The point is inside of the given area!\n");}
+        else{printf("The point is outside of the given area\n");}}
+    else{
+        printf("The point is outside of the given area!\n");}}
+    return 0;}
+desmos
